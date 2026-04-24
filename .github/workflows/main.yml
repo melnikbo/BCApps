@@ -1,0 +1,22 @@
+name: Sync Fork
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Запускать каждый день в 00:00
+  workflow_dispatch: # Позволяет запускать вручную
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target repo
+        uses: actions/checkout@v3
+
+      - name: Sync upstream
+        uses: tgymnich/fork-sync@v1.6
+        with:
+          owner: 'microsoft' # Владелец оригинального репозитория
+          repo: 'BCApps'   # Имя оригинального репозитория
+          base: 'main'            # Ветка в оригинале
+          head: 'main'            # Ветка в вашем форке
+          token: ${{ secrets.GITHUB_TOKEN }}
