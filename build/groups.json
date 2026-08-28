@@ -2204,6 +2204,48 @@
     ]
   },
   {
+    "name": "Shopify Connector NA",
+    "groups": [
+      {
+        "name": "AllExtensions"
+      },
+      {
+        "name": "Financials"
+      },
+      {
+        "name": "FinancialsExtensions"
+      },
+      {
+        "name": "OnPrem"
+      },
+      {
+        "name": "OnPremExtensions"
+      }
+    ]
+  },
+  {
+    "name": "Shopify Connector NA Test",
+    "groups": [
+      {
+        "name": "AllExtensions"
+      },
+      {
+        "name": "Financials"
+      },
+      {
+        "name": "FinancialsExtensions"
+      },
+      {
+        "name": "OnPrem",
+        "doNotInstall": true
+      },
+      {
+        "name": "OnPremExtensions",
+        "doNotInstall": true
+      }
+    ]
+  },
+  {
     "name": "Data Archive",
     "groups": [
       {
@@ -2959,24 +3001,19 @@
     "name": "Subcontracting",
     "groups": [
       {
-        "name": "AllExtensions",
-        "doNotInstall": true
+        "name": "AllExtensions"
       },
       {
-        "name": "Financials",
-        "doNotInstall": true
+        "name": "Financials"
       },
       {
-        "name": "FinancialsExtensions",
-        "doNotInstall": true
+        "name": "FinancialsExtensions"
       },
       {
-        "name": "OnPrem",
-        "doNotInstall": true
+        "name": "OnPrem"
       },
       {
-        "name": "OnPremExtensions",
-        "doNotInstall": true
+        "name": "OnPremExtensions"
       }
     ]
   },
@@ -2984,24 +3021,19 @@
     "name": "Subcontracting-Tests",
     "groups": [
       {
-        "name": "AllExtensions",
-        "doNotInstall": true
+        "name": "AllExtensions"
       },
       {
-        "name": "Financials",
-        "doNotInstall": true
+        "name": "Financials"
       },
       {
-        "name": "FinancialsExtensions",
-        "doNotInstall": true
+        "name": "FinancialsExtensions"
       },
       {
-        "name": "OnPrem",
-        "doNotInstall": true
+        "name": "OnPrem"
       },
       {
-        "name": "OnPremExtensions",
-        "doNotInstall": true
+        "name": "OnPremExtensions"
       }
     ]
   },
